@@ -4,6 +4,7 @@
   "description": "Intro to HapiJS",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "test": "jest"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/CodeAcademyBKK2017/hapi-intro/issues"
   },
-  "homepage": "https://github.com/CodeAcademyBKK2017/hapi-intro#readme"
+  "homepage": "https://github.com/CodeAcademyBKK2017/hapi-intro#readme",
+  "dependencies": {
+    "hapi": "16"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
 }
