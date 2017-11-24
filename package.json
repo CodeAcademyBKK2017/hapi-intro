@@ -1,0 +1,19 @@
+{
+  "name": "hapi-intro",
+  "version": "1.0.0",
+  "description": "Intro to HapiJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeAcademyBKK2017/hapi-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeAcademyBKK2017/hapi-intro/issues"
+  },
+  "homepage": "https://github.com/CodeAcademyBKK2017/hapi-intro#readme"
+}
