@@ -11,7 +11,8 @@ server.route({
     method: 'GET',
     path: '/',
     handler: (request, reply) => {
-        console.log('');
+        console.log('query : ', request.query);
+        console.log('params : ', request.params);
         reply("hello world");
     }
 });
