@@ -2,6 +2,3 @@
 # yarn lockfile v1
 
 
-eslint-plugin-es6-recommended@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-es6-recommended/-/eslint-plugin-es6-recommended-0.1.2.tgz#417a9207052fbd3d2588a8709a412e4bd9651fde"
