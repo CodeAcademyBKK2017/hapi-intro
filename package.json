@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start":"node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "dependencies": {
     "hapi": "16",
     "jest": "^21.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
