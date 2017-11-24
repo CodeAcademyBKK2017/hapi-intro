@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start" : "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/CodeAcademyBKK2017/hapi-intro#readme",
   "dependencies": {
     "hapi": "16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
