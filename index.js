@@ -7,6 +7,15 @@ server.connection({
     port: 8000 
 });
 
+server.route({
+    method: 'GET',
+    path: '/',
+    handler: (request, reply) => {
+        console.log('');
+        reply("hello world");
+    }
+});
+
 server.start((err) => {
     
     if (err) {
