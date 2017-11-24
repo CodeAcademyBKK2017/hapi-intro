@@ -17,6 +17,14 @@ const server = new Hapi.Server();
 
 server.connection({port: 3008, host: 'localhost'});
 
+server.route({
+    method: 'GET',
+    path: '/',
+    handler: (request, reply) => {
+        reply('Hello from HapiJS');
+    }
+});
+
 server.start(() => {
     console.log('Server started');
 });
