@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/CodeAcademyBKK2017/hapi-intro/issues"
   },
-  "homepage": "https://github.com/CodeAcademyBKK2017/hapi-intro#readme"
+  "homepage": "https://github.com/CodeAcademyBKK2017/hapi-intro#readme",
+  "dependencies": {
+    "hapi": "16"
+  }
 }
