@@ -18,5 +18,8 @@
   "homepage": "https://github.com/CodeAcademyBKK2017/hapi-intro#readme",
   "dependencies": {
     "hapi": "16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
