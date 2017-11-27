@@ -19,12 +19,14 @@ server.connection({ port: 3008, host: 'localhost' });
 
 server.route({
     method: 'GET',
-    path: '/',
-    handler: function (request, reply) {
-        return reply('Hello from HapiJS');
-    }
+    path: '/first-user',
+    handler: require('./handlers/first-user')
 });
 
-server.start(() => {
-    console.log('Server started. Yay!');
+server.route({
+    method: 'GET',
+    path: '/user-data',
+    handler: require('./handlers/user-data')
 });
+
+server.start(() => { });
