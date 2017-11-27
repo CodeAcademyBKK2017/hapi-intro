@@ -43,6 +43,14 @@ test('GET: /user-data?user=teresa - Get User data with ignore case.', () => {
 
 // Failure case
 
+test('GET: /user-data - without query', () => {
+    const request = { query: {user:null} };
+    const reply = jest.fn();
+
+    userDataHandler(request, reply);
+    expect(reply).toHaveBeenCalledWith('User not found.');
+});
+
 test('GET: /user-data?user=Teresa - Should be response data of User not found', () => {
     const request = { query: {user: 'Teresaaaaaaaa'}};
     const reply = jest.fn();
